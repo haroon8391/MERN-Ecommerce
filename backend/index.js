@@ -15,6 +15,7 @@ app.use(cors(
 ))
 app.use(express.json());
 app.use("/api/auth", router)
+app.get("/", (req, res) => res.send("Express on Vercel"));
 
 
 app.post("/create-checkout-session", async (req, res) => {
