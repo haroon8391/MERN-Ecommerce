@@ -1,6 +1,7 @@
 **MERN Stack eCommerce Application** : Welcome to MERN (MongoDB, Express.js, React.js, Node.js) stack eCommerce application! This application allows users to browse through products, view product details, add items to their cart, and complete the checkout process using the Stripe payment gateway.
 
 **Features**
+
 **React Frontend**: The frontend of the application is built using React.js, providing a dynamic and responsive user interface.
 
 **Node.js and Express.js Backend**: The backend of the application is powered by Node.js and Express.js, providing robust server-side functionality and API endpoints.
