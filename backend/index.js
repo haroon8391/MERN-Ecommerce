@@ -8,7 +8,7 @@ const stripe = require("stripe")(process.env.STRIPE_KEY);
 const app = express();
 app.use(cors(
     {
-        origin: ["https://mern-ecommerce-frontend-xi.vercel.app/login"],
+        origin: ["https://mern-ecommerce-76fn.vercel.app"],
         methods: ["POST", "GET"],
         credentials: true,
     }
