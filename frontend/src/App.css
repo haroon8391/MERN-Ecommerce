@@ -1,0 +1,14 @@
+.navLink {
+    font-size: 1rem;
+    margin: 0px 5px;
+}
+
+.nav-link:hover {
+    font-size: 1.1rem;
+    text-decoration-thickness: 2px;
+}
+
+.invalidData {
+    color: red;
+    font-size: small;
+}
