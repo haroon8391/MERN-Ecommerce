@@ -41,11 +41,14 @@ const Register = () => {
       alert("Passwords do not match. Please retype your password correctly.");
       return;
     } else {
-      const response = await fetch("https://mern-ecommerce-api-chi.vercel.app/register", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, password }),
-      });
+      const response = await fetch(
+        "https://mern-ecommerce-seven-omega.vercel.app/",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ name, email, password }),
+        }
+      );
       const result = await response.json();
       if (result.success) {
         console.log("Register result : ", result.message);
